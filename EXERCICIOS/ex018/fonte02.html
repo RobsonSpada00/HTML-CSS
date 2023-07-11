@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face{
+            font-family: love;
+            src: url(fonts/love\ larry\ ttf.ttf) format(truetype);
+            /* Tipos de format
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat (Apple Advanced Typography)
+            - svg */
+        }
+        @font-face{
+            font-family: pincel;
+            src: url(fonts/Shinigami.ttf) format(truetype);
+        }
+        h1{
+            font-family: love, Times, serif;
+        }
+        p{
+            font-family: pincel;
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet, 
+        consectetur adipisicing elit. Ratione culpa doloribus odit voluptate quaerat,
+        nisi omnis distinctio harum explicabo commodi veritatis.
+        Nam architecto laudantium recusandae modi odio eligendi natus sunt.
+    </p>
+    <!-- Sites que descobrir a fonts de imagens
+    - Whatfontis.com
+    - WhatTheFont.com
+    - Fontsquirrel.com
+      -->
+    <!-- Ferramenta para descobrir a fonte (extensão do chrome) 
+    - Fonte Ninja
+    -->
+</body>
+</html>

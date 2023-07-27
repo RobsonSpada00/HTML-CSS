@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    height: 150px;
+    font-size: 20px;
+}
+header > a{
+    color: white;
+    text-decoration: none;
+}
+body{
+    margin: auto;
+    margin-top: -26px;
+   
+}
+img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+#container {
+    position: relative;
+}
+#conteudo {
+    position: absolute;
+    height: 250px;
+    width: 100%;
+    background-color: white;
+    left: 0%;
+    top: 1%;
+}
+p{
+    text-align: left;
+    margin: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}

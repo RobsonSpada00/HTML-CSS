@@ -10,9 +10,15 @@
         }
         table{
             width: 500px;
+            border-collapse: collapse;
         }
         td, th{
             border: 1px solid black;
+            padding: 10px;
+        }
+        thead, tfoot{
+          background-color: gray; 
+          color: white;
         }
     </style>
 </head>
@@ -57,7 +63,9 @@
             </tr>
         </tbody>
         <tfoot>
-
+            <td></td>
+            <th>Total de Habitantes</th>
+            <td>000</td>
         </tfoot>
     </TAble>
 </body>
